@@ -1,9 +1,12 @@
 import './App.scss'
+import { FixedNav } from './components'
 
 function App() {
   return (
     <div className="App">
-      <h4>hell0</h4>
+      <div className="homepage_container">
+        <FixedNav />
+      </div>
     </div>
   )
 }
