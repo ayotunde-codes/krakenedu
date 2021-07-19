@@ -1,11 +1,12 @@
 import './App.scss'
-import { FixedNav } from './components'
+import { FixedNav, MainBody } from './components'
 
 function App() {
   return (
     <div className="App">
       <div className="homepage_container">
         <FixedNav />
+        <MainBody />
       </div>
     </div>
   )

@@ -1,5 +1,12 @@
 .homepage_container {
   display: flex;
-  width: 80%;
-  margin: auto;
+  width: 90%;
+  margin: 30px auto;
+  gap: 3%;
+  position: relative;
+  align-items: flex-start;
+  @media screen and (max-width: 768px) {
+    width: 90%;
+    display: block;
+  }
 }
