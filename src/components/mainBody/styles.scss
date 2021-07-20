@@ -67,6 +67,9 @@
       color: $white_text;
       font-size: 1.1em;
       font-weight: 600;
+
+      //
+
       @media screen and (max-width: 450px) {
         // width: 100%;
         padding: 10px 20px;
@@ -126,6 +129,11 @@
           border: none;
           background-color: $btn_light;
           color: $btn_dark;
+          transition: 0.5s ease-in-out;
+          &:hover {
+            background-color: $btn_dark;
+            color: $btn_light;
+          }
         }
       }
     }
